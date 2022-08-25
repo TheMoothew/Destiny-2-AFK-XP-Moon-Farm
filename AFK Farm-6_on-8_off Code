@@ -1,0 +1,24 @@
+6::
+while true
+{
+Send {k down}
+Sleep 10
+Send {k up}
+Sleep 1000
+Send, D
+Send, W
+Sleep 30
+Sleep 3180
+Send {k down}
+Sleep 10
+Send {k up}
+Sleep 4400
+continue
+}
+return
+8::
+ExitApp
+
+;stand in right corner of doorway and aim at top left of wall chunk across room
+;press 6 to start farm
+;Bind Grenade to K for this
